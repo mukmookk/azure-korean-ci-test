@@ -18,5 +18,8 @@ jobs:
       with:
         format: 'json'
 
+    - name: Debug output
+      run: echo "${{ steps.changed-files.outputs.all }}"
+
     - name: Update date in modified markdown files
       run: python .github/scripts/update_date.py "${{ steps.changed-files.outputs.all }}"
