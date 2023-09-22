@@ -2,6 +2,13 @@ import os
 import subprocess
 from datetime import date
 
+def get_modified_files():
+    output = subprocess.check_output(
+        ['git', 'diff-tree', '--no-commit-id', '--name-only', '-r', 'HEAD'],
+        text=True
+    )
+    return output.strip().split('\n')
+
 def update_md_file(file_path):
     today = date.today().strftime("%m/%d/%Y")
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -16,7 +23,8 @@ def update_md_file(file_path):
         file.writelines(content)
 
 if __name__ == "__main__":
-    modified_files = subprocess.check_output(['git', 'diff', '--name-only', 'HEAD~1', 'HEAD']).decode('utf-8').splitlines()
+    modified_files = get_modified_files()
+    print(modified_files)
     for file in modified_files:
         if file.endswith('.md') and file.startswith('docs/'):
             update_md_file(file)
