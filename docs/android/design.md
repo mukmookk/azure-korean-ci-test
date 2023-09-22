@@ -9,6 +9,7 @@ update: 09/21/2023
 
 {% include draft.html content="The Android guidelines are in DRAFT status" %}
 
+
 ## Introduction
 
 The following document describes Android specific guidelines for designing Azure SDK client libraries. These guidelines also expand on and simplify language-independent [General Azure SDK Guidelines][general-guidelines]. More specific guidelines take precedence over more general guidelines.
