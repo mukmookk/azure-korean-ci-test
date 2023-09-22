@@ -7,6 +7,7 @@ sidebar: general_sidebar
 update: 09/21/2023
 ---
 
+
 {% include draft.html content="The Android guidelines are in DRAFT status" %}
 
 ## Introduction
