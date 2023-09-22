@@ -271,5 +271,3 @@ MSI(Managed Security Identity) 또는 Azure Identity를 통해 얻는 OAuth 토�
 [OpenTelemetry]: https://opentelemetry.io/
 [Azure Monitor]: https://azure.microsoft.com/services/monitor/
 [CIDR notation]: https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing
-
-
