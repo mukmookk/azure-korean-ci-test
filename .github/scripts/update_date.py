@@ -7,6 +7,10 @@ logging.basicConfig(level=logging.DEBUG)
 def update_md_file(file_path):
     today = date.today().strftime("%m/%d/%Y")
     logging.debug(f'Updating {file_path} with {today}')
+    
+    with open(file_path, 'r', encoding='utf-8') as file:
+        content = file.readlines()
+        
     with open(file_path, 'r', encoding='utf-8') as file:
         content = file.readlines()
     
@@ -18,6 +22,10 @@ def update_md_file(file_path):
     with open(file_path, 'w', encoding='utf-8') as file:
         file.writelines(content)
         logging.debug(f'Updated {file_path} with {today}')
+        
+    with open(file_path, 'r', encoding='utf-8') as file:
+        print(f'Updated content of {file_path}:')
+        print(file.read()) 
 
 def main():
     modified_files_string = sys.argv[1].replace("[", "").replace("]", "").replace("'", "")
