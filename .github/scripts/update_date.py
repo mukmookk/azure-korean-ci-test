@@ -1,4 +1,3 @@
-# update_date.py
 import os
 import subprocess
 from datetime import date

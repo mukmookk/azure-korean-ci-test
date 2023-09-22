@@ -3,7 +3,7 @@ name: Update Date
 on:
   push:
     paths:
-      - 'azure-sdk-korean/docs/**.md'
+      - 'docs/**.md'
 
 jobs:
   update-date:
