@@ -12,6 +12,11 @@ jobs:
     - name: Checkout repo
       uses: actions/checkout@v2
 
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+
     - name: Get changed files
       id: changed-files
       uses: jitterbit/get-changed-files@v1
@@ -23,3 +28,14 @@ jobs:
 
     - name: Update date in modified markdown files
       run: python .github/scripts/update_date.py "${{ steps.changed-files.outputs.all }}"
+
+    - name: Configure Git
+      run: |
+        git config --global user.name 'GitHub Actions'
+        git config --global user.email 'actions@github.com'
+
+    - name: Commit and Push
+      run: |
+        git add -A
+        git commit -m "Update date in modified markdown files" || echo "No changes to commit"
+        git push
