@@ -4,6 +4,7 @@ keywords: guidelines
 permalink: general_design.html
 folder: general
 sidebar: general_sidebar
+update: 09/21/2023
 ---
 
 클라이언트 라이브러리의 API 표면은 소비자가 서비스와 갖는 주요 상호 작용이기 때문에 가장 많이 고려해야 합니다.

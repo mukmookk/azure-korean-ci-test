@@ -4,6 +4,7 @@ keywords: guidelines python
 permalink: python_documentation.html
 folder: python
 sidebar: general_sidebar
+update: 09/21/2023
 ---
 
 클라이언트 라이브러리에 포함해야 하는 몇 가지 문서 자료가 있습니다. 

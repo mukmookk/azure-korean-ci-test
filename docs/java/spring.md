@@ -4,6 +4,7 @@ keywords: guidelines java spring
 permalink: java_spring.html
 folder: java
 sidebar: general_sidebar
+update: 09/21/2023
 ---
 
 스프링 생태계에 최상의 환경을 제공하는 것은 매우 중요합니다. 아래 가이드라인은  [자바 표준 디자인 가이드라인](https://azure.github.io/azure-sdk/java_introduction.html) 의 지침을 적절히 재정의하여 확장한 것입니다. 

@@ -4,6 +4,7 @@ keywords: guidelines ios
 permalink: ios_implementation.html
 folder: ios
 sidebar: general_sidebar
+update: 09/21/2023
 ---
 
 ## API 구현

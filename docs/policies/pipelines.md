@@ -3,6 +3,7 @@ title: "정책: 파이프라인"
 permalink: policies_pipelines.html
 folder: policies
 sidebar: general_sidebar
+update: 09/21/2023
 ---
 
 Azure SDK는 통합된 라이브러리의 집합으로 여기지만, 각 라이브러리 그룹은 해당 라이브러리가 지원하는 서비스의 요구 사항에 따라 별도의 주기로 다양한 수준의 변경과 함께 제공됩니다.

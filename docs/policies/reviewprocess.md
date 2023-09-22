@@ -3,6 +3,7 @@ title: "정책: 리뷰 프로세스"
 permalink: policies_reviewprocess.html
 folder: policies
 sidebar: general_sidebar
+update: 09/21/2023
 ---
 
 ## 소개

@@ -4,6 +4,7 @@ keywords: guidelines
 permalink: general_azurecore.html
 folder: general
 sidebar: general_sidebar
+update: 09/21/2023
 ---
 
 Azure Core 라이브러리는 다른 클라이언트 라이브러리에 교차 서비스를 제공합니다. 이러한 서비스는 다음과 같습니다:

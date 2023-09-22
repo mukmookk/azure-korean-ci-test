@@ -3,6 +3,7 @@ title: "정책: 지원"
 permalink: policies_support.html
 folder: policies
 sidebar: general_sidebar
+update: 09/21/2023
 ---
 
 ## **Azure SDK의 생명 주기 및 지원 정책**

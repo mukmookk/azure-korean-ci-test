@@ -3,6 +3,7 @@ title: "정책: 오픈 소스"
 permalink: policies_opensource.html
 folder: policies
 sidebar: general_sidebar
+update: 09/21/2023
 ---
 
 {% include requirement/MUST %} 모든 라이브러리 코드가 GitHub에서 오픈 소스로 공개되어 있는지 확인합니다. 라이브러리 코드는 언어별 해당하는 Azure SDK '단일 저장소'에 위치해야 합니다.

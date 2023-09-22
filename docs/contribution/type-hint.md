@@ -4,6 +4,7 @@ keywords: contribution
 permalink: contribution_typehint.html
 folder: contribution
 sidebar: general_sidebar
+update: 09/21/2023
 ---
 
 주요 컨트리뷰션 중 Python type hint에 관하여 설명합니다

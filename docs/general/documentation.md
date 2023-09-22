@@ -4,6 +4,7 @@ keywords: guidelines
 permalink: general_documentation.html
 folder: general
 sidebar: general_sidebar
+update: 09/21/2023
 ---
 
 클라이언트 라이브러리에 반드시 포함되거나 함께 제공돼야 하는 몇 가지의 문서들이 있습니다. 코드 내(Docstrings)에 포함된 완전하고 유용한 API 설명서 외에도, 훌륭한 README 및 기타 지원 설명들이 필요합니다.

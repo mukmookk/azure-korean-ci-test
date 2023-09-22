@@ -4,6 +4,7 @@ keywords: guidelines
 permalink: general_introduction.html
 folder: general
 sidebar: general_sidebar
+update: 09/21/2023
 ---
 
 본 공통 가이드라인 문서는 다음과 같은 분들에게 유용합니다:

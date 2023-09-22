@@ -4,6 +4,7 @@ keywords: guidelines dotnet
 permalink: dotnet_introduction.html
 folder: dotnet
 sidebar: general_sidebar
+update: 09/21/2023
 ---
 
 ## Introduction

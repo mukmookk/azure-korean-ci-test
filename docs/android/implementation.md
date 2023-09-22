@@ -4,6 +4,7 @@ keywords: guidelines android
 permalink: android_implementation.html
 folder: android
 sidebar: general_sidebar
+update: 09/21/2023
 ---
 
 ## API 구현

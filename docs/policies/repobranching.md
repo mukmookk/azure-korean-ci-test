@@ -3,6 +3,7 @@ title: "정책: 저장소 브랜치 관리"
 permalink: policies_repobranching.html
 folder: policies
 sidebar: general_sidebar
+update: 09/21/2023
 ---
 
 Git 브랜치 관리와 워크플로우 전략은 대부분 [OneFlow](https://www.endoflineblog.com/oneflow-a-git-branching-model-and-workflow)와 일치하며, 약간의 차이점은 아래에 명시되어 있습니다.

@@ -3,6 +3,7 @@ title: "정책: 릴리스 노트"
 permalink: policies_releasenotes.html
 folder: policies
 sidebar: general_sidebar
+update: 09/21/2023
 ---
 
 # 릴리스 노트 작성하기

@@ -4,6 +4,7 @@ keywords: contribution
 permalink: contribution_drop.html
 folder: contribution
 sidebar: general_sidebar
+update: 09/21/2023
 ---
 
 주요 컨트리뷰션 중 Python Version Drop 관하여 설명합니다

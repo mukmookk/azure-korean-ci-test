@@ -3,6 +3,7 @@ title: "정책: 저장소 구조"
 permalink: policies_repostructure.html
 folder: policies
 sidebar: general_sidebar
+update: 09/21/2023
 ---
 
 팀뿐만 아니라 커뮤니티에서도 저장소를 보다 일관되고 쉽게 접근할 수 있도록 하려면 일관된 구조를 갖춰야 합니다. 이러한 구조는 저장소 루트에 많은 내용을 배치하지 않도록 해야 하며 저장소를 방문하는 사람들이 스크롤하지 않고도 루트 README.md을 빠르게 볼 수 있도록 해야 합니다. 디렉터리 구조는 다음과 같습니다:

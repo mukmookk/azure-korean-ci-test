@@ -4,6 +4,7 @@ keywords: guidelines
 permalink: general_implementation.html
 folder: general
 sidebar: general_sidebar
+update: 09/21/2023
 ---
 
 (For English, please visit [General Guidelines: Implementation])

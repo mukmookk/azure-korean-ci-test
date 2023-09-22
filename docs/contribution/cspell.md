@@ -4,6 +4,7 @@ keywords: contribution
 permalink: contribution_cspell.html
 folder: contribution
 sidebar: general_sidebar
+update: 09/21/2023
 ---
 
 주요 컨트리뷰션 중 CSpell 관하여 설명합니다

@@ -4,6 +4,7 @@ keywords: guidelines
 permalink: general_compatibility.html
 folder: general
 sidebar: general_sidebar
+update: 09/21/2023
 ---
 
 이 섹션은 호환성과 관련된 가이드라인을 설명합니다. 특히, 라이브러리를 발전시키면서 도입되는 API와 동작 변경에 대한 높은 수준의 호환성 원칙과 상세한 규칙에 대해 다룹니다.

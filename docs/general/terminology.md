@@ -4,6 +4,7 @@ keywords: guidelines
 permalink: general_terminology.html
 folder: general
 sidebar: general_sidebar
+update: 09/21/2023
 ---
 
 가이드라인을 통해 다음의 용어들을 이해할 수 있습니다:

@@ -3,6 +3,7 @@ title: "정책: 릴리즈"
 permalink: policies_releases.html
 folder: policies
 sidebar: general_sidebar
+update: 09/21/2023
 ---
 
 Azure SDK에 대한 릴리스 정책은 기본 서비스의 배포 주기에 따라 다른 SDK 패키지를 릴리스해야 하는 필요성을 수용합니다.

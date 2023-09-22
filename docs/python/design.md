@@ -4,6 +4,7 @@ keywords: guidelines python
 permalink: python_design.html
 folder: python
 sidebar: general_sidebar
+update: 09/21/2023
 ---
 
 ## 개요

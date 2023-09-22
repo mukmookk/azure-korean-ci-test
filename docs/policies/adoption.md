@@ -3,6 +3,7 @@ title: "정책: 도입 가이드라인"
 permalink: policies_adoption.html
 folder: policies
 sidebar: general_sidebar
+update: 09/21/2023
 ---
 
 설계 가이드라인은 미국 헌법과 -모든 사람이 준수하고 따를 수 있지만 쉽게 조정할 수 있는 문서는 아니라는 점에서-매우 유사합니다. 그 결과, 이하의 방침이 설계 가이드 라인을 변경하는 방법에 영향을 줄 수 있습니다.

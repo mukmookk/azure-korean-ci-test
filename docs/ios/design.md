@@ -4,6 +4,7 @@ keywords: guidelines ios
 permalink: ios_design.html
 folder: ios
 sidebar: general_sidebar
+update: 09/21/2023
 ---
 
 {% include draft.html content="The iOS guidelines are in DRAFT status" %}
