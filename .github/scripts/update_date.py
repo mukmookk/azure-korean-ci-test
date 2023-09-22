@@ -21,9 +21,9 @@ def update_md_file(file_path):
         logging.debug(f'Updated {file_path} with {today}')
 
 def main():
-    modified_files_string = sys.argv[1]
+    modified_files = sys.argv[1]
     logging.debug(f'Modified files: {modified_files}')
-    modified_files = ast.literal_eval(modified_files_string)
+    modified_files = ast.literal_eval(modified_files)
     for file in modified_files:
         if file.endswith('.md'):
             update_md_file(file)
