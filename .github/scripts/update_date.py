@@ -7,6 +7,7 @@ def get_modified_files():
         ['git', 'diff-tree', '--no-commit-id', '--name-only', '-r', 'HEAD'],
         text=True
     )
+    print(output)
     return output.strip().split('\n')
 
 def update_md_file(file_path):
