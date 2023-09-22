@@ -4,7 +4,6 @@ import ast
 from datetime import date
 
 logging.basicConfig(level=logging.DEBUG)
-
 def update_md_file(file_path):
     today = date.today().strftime("%m/%d/%Y")
     logging.debug(f'Updating {file_path} with {today}')
