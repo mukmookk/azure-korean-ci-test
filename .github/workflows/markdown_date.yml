@@ -8,16 +8,15 @@ on:
 jobs:
   update-date:
     runs-on: ubuntu-latest
-    
     steps:
-    - name: Check out repository
+    - name: Checkout repo
       uses: actions/checkout@v2
-    
-    - name: Set up Python
-      uses: actions/setup-python@v2
+
+    - name: Get changed files
+      id: changed-files
+      uses: jitterbit/get-changed-files@v1
       with:
-        python-version: 3.8
-    
-    - name: Update Date in Modified Markdown Files
-      run: |
-        python .github/scripts/update_date.py
+        format: 'json'
+
+    - name: Update date in modified markdown files
+      run: python .github/scripts/update_date.py "${{ steps.changed-files.outputs.all }}"

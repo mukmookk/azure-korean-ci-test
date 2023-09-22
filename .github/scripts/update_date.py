@@ -1,17 +1,8 @@
-import os
-import subprocess
-import logging
+import sys
+import json
 from datetime import date
 
 logging.basicConfig(level=logging.DEBUG)
-
-def get_modified_files():
-    output = subprocess.check_output(
-        ['git', 'diff-tree', '--no-commit-id', '--name-only', '-r', 'HEAD'],
-        text=True
-    )
-    logging.debug(output)
-    return output.strip().split('\n')
 
 def update_md_file(file_path):
     today = date.today().strftime("%m/%d/%Y")
@@ -28,9 +19,12 @@ def update_md_file(file_path):
         file.writelines(content)
         logging.debug(f'Updated {file_path} with {today}')
 
-if __name__ == "__main__":
-    modified_files = get_modified_files()
-    logging.debug(modified_files)
+def main():
+    modified_files_json = sys.argv[1]
+    modified_files = json.loads(modified_files_json)
     for file in modified_files:
-        if file.endswith('.md') and file.startswith('docs/'):
+        if file.endswith('.md'):
             update_md_file(file)
+
+if __name__ == "__main__":
+    main()
