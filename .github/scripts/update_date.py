@@ -1,6 +1,6 @@
 import sys
-import json
 import logging
+import ast
 from datetime import date
 
 logging.basicConfig(level=logging.DEBUG)
@@ -22,8 +22,8 @@ def update_md_file(file_path):
 
 def main():
     modified_files_json = sys.argv[1]
-    modified_files = json.loads(modified_files_json)
     logging.debug(f'Modified files: {modified_files}')
+    modified_files = ast.literal_eval(modified_files_string)
     for file in modified_files:
         if file.endswith('.md'):
             update_md_file(file)
